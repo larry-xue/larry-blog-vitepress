@@ -15,7 +15,7 @@ I'm a frontend engineer with 2 years of experience, passionate about web develop
 
 - **Technology Used:** I built my blog using VitePress, a Vue-powered static site generator.
 - **Stars Effect Source:** Check out the cool stars effect on my blog homepage, inspired by [this CodePen](https://codepen.io/ghaste/pen/OJqLbvg).
-- **Preview:** You can preview my blog at [INSERT_PREVIEW_URL_HERE]
+- **Preview:** You can preview my blog at [larry's blog](https://blog.larryxue.dev).
 
 Feel free to explore my blog and reach out if you have any questions or just want to chat about web development or anything else! 😊
 
