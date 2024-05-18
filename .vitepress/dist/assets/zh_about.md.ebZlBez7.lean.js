@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e,a1 as o}from"./chunks/framework.biRBrEtS.js";const p=JSON.parse('{"title":"关于我","description":"","frontmatter":{},"headers":[],"relativePath":"zh/about.md","filePath":"zh/about.md"}'),r={name:"zh/about.md"},s=o("",6),i=[s];function n(l,c,_,h,d,u){return e(),a("div",null,i)}const m=t(r,[["render",n]]);export{p as __pageData,m as default};
