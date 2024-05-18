@@ -23,5 +23,6 @@ Feel free to explore my blog and reach out if you have any questions or just wan
 
 - [ ] fix build error
   - [reference github issues](https://github.com/vuejs/vitepress/issues/3789)
-- [ ] adjust color theme
+- [x] adjust color theme
 - [ ] cache visitor settings
+- [ ] export an theme config to github repo, and write a blog about how to use it
