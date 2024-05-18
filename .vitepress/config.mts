@@ -6,7 +6,6 @@ export default defineConfig({
   description: "Hey! This is yujian(larry)'s blog. Welcome to visit.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "../public/favicon.ico",
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
