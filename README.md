@@ -1,5 +1,9 @@
 # Larry's Blog
 
+## Preview
+
+You can preview my blog at [larry's blog](https://blog.larryxue.dev).
+
 ## Hi there! 👋 I'm yujian (larry)
 
 I'm a frontend engineer with 2 years of experience, passionate about web development. Here's a quick rundown of my skills and interests:
@@ -14,8 +18,8 @@ I'm a frontend engineer with 2 years of experience, passionate about web develop
 ### About My Blog
 
 - **Technology Used:** I built my blog using VitePress, a Vue-powered static site generator.
-- **Stars Effect Source:** Check out the cool stars effect on my blog homepage, inspired by [this CodePen](https://codepen.io/ghaste/pen/OJqLbvg).
-- **Preview:** You can preview my blog at [larry's blog](https://blog.larryxue.dev).
+- **Stars Effect Source:** Check out the cool stars effect on my blog, inspired by [this CodePen](https://codepen.io/ghaste/pen/OJqLbvg).
+- **Home Hero Image:** Check out the cool stars effect on my blog homepage, inspired by [this CodePen](https://codepen.io/borntofrappe/pen/RwvKoJE).
 
 Feel free to explore my blog and reach out if you have any questions or just want to chat about web development or anything else! 😊
 
