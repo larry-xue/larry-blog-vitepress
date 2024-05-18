@@ -66,15 +66,6 @@ export default defineConfig({
           { text: '关于我', link: '/zh/about' },
           { text: '我的简历', link: 'https://resume.larryxue.dev/' }
         ],
-        sidebar: [
-          {
-            text: '示例',
-            items: [
-              { text: 'Markdown 示例', link: '/zh/markdown-examples' },
-              { text: 'Runtime API 示例', link: '/zh/api-examples' }
-            ]
-          }
-        ]
       }
     },
 
