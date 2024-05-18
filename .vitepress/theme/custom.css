@@ -39,3 +39,12 @@
   --vp-c-brand-3: var(--vp-c-green-3);
   --vp-c-brand-soft: var(--vp-c-green-soft);
 }
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.image > .image-container {
+  max-width: 100%;
+  max-height: 100%;
+}

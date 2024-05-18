@@ -1,14 +1,10 @@
 <template>
-  <div class="swing">
-    <canvas id="canvas" width="400" height="400"></canvas>
-  </div>
+  <canvas id="canvas" width="375" height="375"></canvas>
 </template>
 
-<script setup>
-import { onMounted, onUnmounted, ref } from 'vue'
+<script setup lang="ts">
+import { onMounted } from 'vue'
 import zdog from 'zdog';
-
-const timer = ref(null)
 
 onMounted(() => {
   const { Anchor, Group, Box, Shape, Hemisphere, easeInOut, TAU } = zdog;
@@ -335,9 +331,15 @@ onMounted(() => {
   });
 
   const canvas = document.querySelector("canvas");
+  if (!canvas) return;
   const context = canvas.getContext("2d");
+  if (!context) return;
   const { width, height } = canvas;
-  const zoom = 11;
+  let zoom = 11;
+
+  if (window.screen.width < 600) {
+    zoom = 9;
+  }
 
   context.lineJoin = "round";
   context.lineCap = "round";
@@ -359,7 +361,7 @@ onMounted(() => {
   let state = "wait";
   const z = swing.rotate.z * 2;
 
-  let frame = null;
+  let frame: number | null = null;
   let ticker = 0;
   const cycle = 60;
   let direction = z <= 0 ? 1 : -1;
@@ -373,7 +375,7 @@ onMounted(() => {
       ticker = 0;
       direction = 1;
 
-      cancelAnimationFrame(frame);
+      cancelAnimationFrame(frame as number);
       state = "wait";
       animate();
 
@@ -393,39 +395,4 @@ onMounted(() => {
 })
 </script>
 
-<style lang="scss" module>
-.swing {
-  margin: 0;
-  color: hsl(0 0% 20%);
-  background: hsl(344 43% 92%);
-  font-family: system-ui;
-  min-block-size: 100svb;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-
-  canvas {
-    display: block;
-  }
-
-  body {
-    background-image: url('data:image/svg+xml,<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">\
-    <defs>\
-      <filter id="f">\
-        <feTurbulence type="fractalNoise" baseFrequency="0.5" numOctaves="2" />\
-        <feColorMatrix values="\
-          0.8 0 0 2 0.2\
-          0 0.7 0 0.2 0.2\
-          0 0 0.3 0 0.2\
-          0 0 0 0 0.5\
-          " />\
-        <feBlend in2="SourceGraphic" mode="overlay" />\
-      </filter>\
-    </defs>\
-    <rect filter="url(%23f)" width="300" height="300" fill="hsl(344 43%25 92%25)" />\
-  </svg>');
-  }
-}
-</style>
+<style lang="scss" module></style>
