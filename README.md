@@ -18,3 +18,9 @@ I'm a frontend engineer with 2 years of experience, passionate about web develop
 - **Preview:** You can preview my blog at [INSERT_PREVIEW_URL_HERE]
 
 Feel free to explore my blog and reach out if you have any questions or just want to chat about web development or anything else! 😊
+
+### TODO
+
+- [ ] fix build error
+  - [reference github issues](https://github.com/vuejs/vitepress/issues/3789)
+- [ ] adjust color theme
