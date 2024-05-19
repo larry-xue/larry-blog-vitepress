@@ -1,19 +1,17 @@
-# About Me
+# 关于我
 
-Hey there! 👋 I'm Yujian (Larry), a results-driven Front-End Developer with over 2 years of experience, specializing in web application development. Currently employed at China Telecom Cloud Technology Co., Ltd., I'm passionate about crafting engaging user experiences and leveraging cutting-edge technologies to bring ideas to life.
+你好！👋 我是薛宇建（Larry），一名有着超过 2 年经验的前端工程师，专注于 Web 应用开发。目前就职于一家云计算公司，我热衷于打造好用又好看的网站，并利用最新技术让它们变得更加实用。
 
-## Skills & Expertise
+## 技能与专长
 
-- **Frontend Development**: Proficient in Vue.js, Next.js, and Tailwind CSS for creating intuitive and responsive web applications.
-- **Backend Development**: Skilled in Nest.js, TypeORM, and Docker, delivering scalable server-side solutions.
-- **Language Proficiency**: Experienced in TypeScript for writing clean and maintainable code; Proficient in Three.js for immersive 3D graphics.
+- **前端开发**：我擅长使用 Vue.js、Next.js 和 Tailwind CSS 等技术，创建直观又响应迅速的网站。
+- **后端开发**：我熟练掌握 Nest.js、TypeORM 和 Docker 等工具，构建可扩展的后端解决方案。
+- **语言技能**：我善于使用 TypeScript 编写清晰易懂的代码；并且对于 Three.js 创建 3D 图形也有一定经验。
 
-## Personal Traits
+## 个人特质
 
-- **Remote Work Enthusiast**: Actively seeking remote development opportunities to embrace flexibility and expand my horizons.
-- **Running Enthusiast**: Outside of coding, you can often find me enjoying a refreshing run.
-- **Work-Life Balance Advocate**: Valuing work-life balance, I prioritize maintaining harmony between professional and personal pursuits.
-- **Technical Excellence Pursuer**: Detail-oriented and constantly striving for excellence in technical implementations, I stay updated with the latest advancements in the field.
-- **AI Technology Follower**: I'm particularly interested in AI technology, especially in how it can be utilized to enhance work efficiency. I enjoy experimenting with various AI tools and staying updated on the latest advancements in the field.
-
-Let's connect and explore how we can collaborate to create exceptional digital experiences together!
+- **远程工作热爱者**：我希望能有机会从事远程开发工作，这样我可以更加自由地安排我的工作时间。
+- **跑步爱好者**：在工作之余，我喜欢出去跑步，这是我放松和锻炼身体的好方式。
+- **平衡生活与工作**：我认为平衡是生活的重要部分，我努力让我的工作与生活达到一个平衡点。
+- **追求技术细节**：我注重技术细节，希望能够写出更加优秀的代码，并且保持对技术的追求。
+- **AI 技术追随者**：我对人工智能技术很感兴趣，尤其是在提高工作效率方面。我喜欢尝试各种 AI 工具，并且持续关注该领域的最新进展。

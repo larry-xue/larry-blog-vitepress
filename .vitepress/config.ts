@@ -53,11 +53,6 @@ export default defineConfig({
   },
   locales: {
     root: {
-      label: 'English',
-      lang: 'en',
-      dir: 'en',
-    },
-    zh: {
       label: '简体中文',
       lang: 'zh',
       themeConfig: {
@@ -69,6 +64,10 @@ export default defineConfig({
         ],
       }
     },
-
+    en: {
+      label: 'English',
+      lang: 'en',
+      dir: 'en',
+    },
   }
 })
