@@ -6,11 +6,6 @@ export default defineConfig({
   description: "Hey! This is yujian(larry)'s blog. Welcome to visit.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'About', link: '/about' },
-      { text: 'My Resume', link: 'https://resume.larryxue.dev/' }
-    ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/larry-xue' },
       { icon: 'linkedin', link: 'linkedin.com/in/yujay-xue-588386212/' },
@@ -57,9 +52,9 @@ export default defineConfig({
       lang: 'zh',
       themeConfig: {
         nav: [
-          { text: '首页', link: '/zh/' },
-          { text: '关于我', link: '/zh/about' },
-          { text: '文章', link: '/zh/posts/index.md' },
+          { text: '首页', link: '/' },
+          { text: '关于我', link: '/about' },
+          { text: '文章', link: '/posts/index.md' },
           { text: '我的简历', link: 'https://resume.larryxue.dev/' }
         ],
       }
@@ -68,6 +63,13 @@ export default defineConfig({
       label: 'English',
       lang: 'en',
       dir: 'en',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/en/' },
+          { text: 'About', link: '/en/about' },
+          { text: 'My Resume', link: 'https://resume.larryxue.dev/' }
+        ],
+      }
     },
   }
 })

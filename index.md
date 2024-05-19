@@ -12,7 +12,7 @@ hero:
       link: https://resume.larryxue.dev/
     - theme: alt
       text: 关于我
-      link: /zh/about
+      link: /about
     - theme: alt
       text: README
       link: /README
