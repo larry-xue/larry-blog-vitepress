@@ -64,6 +64,7 @@ export default defineConfig({
         nav: [
           { text: '首页', link: '/zh/' },
           { text: '关于我', link: '/zh/about' },
+          { text: '文章', link: '/zh/posts/index.md' },
           { text: '我的简历', link: 'https://resume.larryxue.dev/' }
         ],
       }
