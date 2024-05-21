@@ -53,8 +53,8 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: '首页', link: '/' },
-          { text: '关于我', link: '/about' },
           { text: '文章', link: '/posts/index.md' },
+          { text: 'AI Bot', link: 'https://chat.larryxue.dev' },
           { text: '我的简历', link: 'https://resume.larryxue.dev/' }
         ],
       }
@@ -66,7 +66,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/' },
-          { text: 'About', link: '/en/about' },
+          { text: 'AI Bot', link: 'https://chat.larryxue.dev' },
           { text: 'My Resume', link: 'https://resume.larryxue.dev/' }
         ],
       }
