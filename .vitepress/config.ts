@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     socialLinks: [
       { icon: 'github', link: 'https://github.com/larry-xue' },
-      { icon: 'linkedin', link: 'linkedin.com/in/yujay-xue-588386212/' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/yujay-xue-588386212/' },
       { icon: 'discord', link: 'https://discordapp.com/users/lopy6948' },
     ],
     footer: {
