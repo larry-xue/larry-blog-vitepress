@@ -13,9 +13,6 @@ hero:
     - theme: alt
       text: ABOUT ME
       link: /en/about
-    - theme: alt
-      text: README
-      link: /README
 
 features:
   - title: Web App Development

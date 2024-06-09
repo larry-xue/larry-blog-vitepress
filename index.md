@@ -13,9 +13,6 @@ hero:
     - theme: alt
       text: 关于我
       link: /about
-    - theme: alt
-      text: README
-      link: /README
 
 features:
   - title: Web 应用开发
