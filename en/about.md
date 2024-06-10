@@ -1,6 +1,6 @@
 # About Me
 
-Hey there! 👋 I'm Yujian (Larry), a results-driven Front-End Developer with over 2 years of experience, specializing in web application development. Currently employed at China Telecom Cloud Technology Co., Ltd., I'm passionate about crafting engaging user experiences and leveraging cutting-edge technologies to bring ideas to life.
+Hey there! 👋 I'm Yujian (Larry), a results-driven Front-End Developer with over 2 years of experience, specializing in web application development. Currently employed at eSurfing Cloud, I'm passionate about crafting engaging user experiences and leveraging cutting-edge technologies to bring ideas to life.
 
 ## Skills & Expertise
 
