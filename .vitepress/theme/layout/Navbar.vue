@@ -34,7 +34,7 @@ const onClickLink = (link: string) => {
 <template>
   <div class="navbar bg-base-100">
     <div class="flex-1">
-      <a class="btn dark:btn-ghost text-xl">Yujian(Larry) Xue</a>
+      <a class="btn dark:btn-ghost md:text-xl text-lg tracking-[-0.1rem]">Yujian(Larry) Xue</a>
     </div>
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
