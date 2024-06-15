@@ -7,10 +7,15 @@
   color: red;
   z-index: 1000;
 }
+
 .star:before {
   position: absolute;
   content: "\2726";
   color: inherit;
   inset: 0;
   text-shadow: 0 0 0.8em #fff5;
+}
+
+:root {
+  font-family: '"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"';
 }

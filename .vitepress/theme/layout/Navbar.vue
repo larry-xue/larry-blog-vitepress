@@ -21,6 +21,14 @@ const onToggleTheme = () => {
   document.documentElement.setAttribute('data-theme', mode.value)
   localStorage.setItem('vueuse-color-scheme', mode.value)
 }
+
+const onClickLink = (link: string) => {
+  if (link.startsWith('http')) {
+    window.open(link)
+  } else {
+    window.location.href = link
+  }
+}
 </script>
 
 <template>
@@ -31,7 +39,7 @@ const onToggleTheme = () => {
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
         <li v-for="item in navlist" :key="item.text">
-          <button class="btn btn-ghost">
+          <button class="btn btn-ghost" @click="onClickLink(item.link)">
             {{ item.text }}
           </button>
         </li>

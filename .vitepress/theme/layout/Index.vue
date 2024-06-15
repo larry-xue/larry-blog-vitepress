@@ -1,11 +1,25 @@
 <script setup lang="ts">
 import Navbar from './Navbar.vue';
+import Education from './portfolio/Education.vue';
+import SelfIntro from './portfolio/SelfIntro.vue';
+import SideProject from './portfolio/SideProject.vue';
+import TimeLine from './portfolio/TimeLine.vue';
+import Contact from './portfolio/Contact.vue';
 </script>
 
 <template>
-  <div class="artboard artboard-horizontal w-full md:w-1/2 mx-auto">
+  <div class="artboard artboard-horizontal w-screen md:w-1/2 mx-auto font-mono">
     <Navbar />
-    <Content />
+
+    <SelfIntro />
+
+    <TimeLine />
+
+    <Education />
+
+    <SideProject />
+
+    <Contact />
   </div>
 </template>
 
