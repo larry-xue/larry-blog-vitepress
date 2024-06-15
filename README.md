@@ -1,8 +1,8 @@
-# Larry's Blog
+# Larry's Personal Site
 
 ## Preview
 
-You can preview my blog at [larry's blog](https://blog.larryxue.dev).
+You can preview my site at [larry's portfolio](https://larryxue.dev).
 
 ## Hi there! 👋 I'm yujian (larry)
 

@@ -3,8 +3,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./.vitepress/**/*.{js,ts,vue}", "./**/*.{vue,md}"],
+  darkMode: ['class', '[data-theme="dark"]'],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: ["dark", "light"],
+  },
 };

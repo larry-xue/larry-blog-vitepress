@@ -2,8 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "larry's blog",
+  title: "larry's portfolio",
   description: "Hey! This is yujian(larry)'s blog. Welcome to visit.",
+  appearance: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     socialLinks: [
@@ -52,10 +53,10 @@ export default defineConfig({
       lang: 'zh',
       themeConfig: {
         nav: [
-          { text: '首页', link: '/' },
-          { text: '文章', link: '/posts/index.md' },
-          { text: 'AI Bot', link: 'https://ai.larryxue.dev' },
-          { text: '我的简历', link: 'https://resume.larryxue.dev/' }
+          // { text: '首页', link: '/' },
+          // { text: '文章', link: '/posts/index.md' },
+          // { text: 'AI Bot', link: 'https://ai.larryxue.dev' },
+          { text: 'Resume', link: 'https://resume.larryxue.dev/' }
         ],
       }
     },
