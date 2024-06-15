@@ -5,6 +5,9 @@ import SelfIntro from './portfolio/SelfIntro.vue';
 import SideProject from './portfolio/SideProject.vue';
 import TimeLine from './portfolio/TimeLine.vue';
 import Contact from './portfolio/Contact.vue';
+import { inject } from "@vercel/analytics";
+
+inject();
 </script>
 
 <template>
@@ -20,6 +23,8 @@ import Contact from './portfolio/Contact.vue';
     <SideProject />
 
     <Contact />
+
+    <Analytics />
   </div>
 </template>
 
