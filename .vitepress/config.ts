@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "larry's blog",
   description: "Hey! This is yujian(larry)'s blog. Welcome to visit.",
+  appearance: false,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     socialLinks: [
