@@ -27,8 +27,8 @@ const experienceList = [
       Experience</h1>
     <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
       <li v-for="(exp, idx) in experienceList" class="timeline-item dark:text-white" :key="exp.title">
-        <time :class="['timeline-box', idx % 2 === 0 ? 'timeline-start' : 'timeline-end']">{{ exp.time }}</time>
-        <div :class="['timeline-box', idx % 2 === 0 ? 'timeline-end' : 'timeline-start']">
+        <time :class="['timeline-box', idx % 2 === 0 ? 'md:timeline-start' : 'md:timeline-end', 'timeline-end']">{{ exp.time }}</time>
+        <div :class="['timeline-box', idx % 2 === 0 ? 'md:timeline-end' : 'md:timeline-start', 'timeline-start']">
           <h2 class="timeline-title text-lg md:text-3xl">{{ exp.title }}</h2>
           <h4 class="timeline-subtitle text-md md:text-xl text-slate-600 dark:text-slate-400">{{ exp.company }}</h4>
           <p class="timeline-desc">{{ exp.desc }}</p>

@@ -5,9 +5,13 @@ import SelfIntro from './portfolio/SelfIntro.vue';
 import SideProject from './portfolio/SideProject.vue';
 import TimeLine from './portfolio/TimeLine.vue';
 import Contact from './portfolio/Contact.vue';
-import { inject } from "@vercel/analytics";
+import Analysis from '../components/Analysis.vue';
+import star from '../animation/star';
+import { onMounted } from 'vue';
 
-inject();
+onMounted(() => {
+  star();
+})
 </script>
 
 <template>
@@ -24,7 +28,9 @@ inject();
 
     <Contact />
 
-    <Analytics />
+    <ClientOnly>
+      <Analysis />
+    </ClientOnly>
   </div>
 </template>
 
