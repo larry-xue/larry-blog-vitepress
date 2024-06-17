@@ -5,13 +5,8 @@ import SelfIntro from './portfolio/SelfIntro.vue';
 import SideProject from './portfolio/SideProject.vue';
 import TimeLine from './portfolio/TimeLine.vue';
 import Contact from './portfolio/Contact.vue';
-import { inject } from "@vercel/analytics";
+import Analysis from '../components/Analysis.vue';
 
-// try {
-//   process.env. inject();
-// } catch (error) {
-//   console.log(error);
-// }
 </script>
 
 <template>
@@ -28,7 +23,9 @@ import { inject } from "@vercel/analytics";
 
     <Contact />
 
-    <Analytics />
+    <ClientOnly>
+      <Analysis />
+    </ClientOnly>
   </div>
 </template>
 
