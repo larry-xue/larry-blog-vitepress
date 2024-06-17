@@ -6,7 +6,12 @@ import SideProject from './portfolio/SideProject.vue';
 import TimeLine from './portfolio/TimeLine.vue';
 import Contact from './portfolio/Contact.vue';
 import Analysis from '../components/Analysis.vue';
+import star from '../animation/star';
+import { onMounted } from 'vue';
 
+onMounted(() => {
+  star();
+})
 </script>
 
 <template>
