@@ -7,6 +7,12 @@ const sideProjects = [
     github: "https://github.com/larry-xue/nuxt-chat-cloudflare"
   },
   {
+    title: "Folder to JSON",
+    desc: "Folder to JSON is a web application utilizing the showDirectoryPicker API to enable users to select a folder on their local machine. It recursively retrieves subdirectories to generate a JSON tree structure representing the directory hierarchy.",
+    preview: "https://folder2json.larryxue.dev/",
+    github: "https://github.com/larry-xue/folder-to-json"
+  },
+  {
     title: "Personal Portfolio with VitePress",
     desc: "Built a personal portfolio website using VitePress and DaisyUI.",
     preview: "https://larryxue.dev/",
@@ -36,10 +42,10 @@ const onOpenLink = (link: string) => {
           <h2 class="card-title text-primary">{{ project.title }}</h2>
           <p class="dark:text-slate-300 text-slate-700">{{ project.desc }}</p>
           <div class="card-actions justify-end">
-            <button class="btn btn-ghost dark:text-white text-slate-700" :disabled="!project.github" @click="onOpenLink(project.github)">
+            <button class="btn btn-ghost dark:text-white text-slate-700" v-if="project.github" @click="onOpenLink(project.github)">
               Repo
             </button>
-            <button class="btn btn-ghost dark:text-white text-slate-700" :disabled="!project.preview" @click="onOpenLink(project.preview)">
+            <button class="btn btn-ghost dark:text-white text-slate-700" v-if="project.preview" @click="onOpenLink(project.preview)">
               Preview
             </button>
           </div>

@@ -7,7 +7,11 @@ import TimeLine from './portfolio/TimeLine.vue';
 import Contact from './portfolio/Contact.vue';
 import { inject } from "@vercel/analytics";
 
-inject();
+// try {
+//   process.env. inject();
+// } catch (error) {
+//   console.log(error);
+// }
 </script>
 
 <template>
