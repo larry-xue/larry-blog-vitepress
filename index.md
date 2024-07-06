@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 我的简历
-      link: https://resume.larryxue.dev/
+      link: https://drive.google.com/file/d/1Dl-s1_Aq4bRQ5QT-fvuLHe1Eo9KXiiPW/view?usp=sharing
     - theme: alt
       text: 关于我
       link: /about

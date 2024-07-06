@@ -56,7 +56,7 @@ export default defineConfig({
           // { text: '首页', link: '/' },
           // { text: '文章', link: '/posts/index.md' },
           // { text: 'AI Bot', link: 'https://ai.larryxue.dev' },
-          { text: 'Resume', link: 'https://resume.larryxue.dev/' }
+          { text: 'Resume', link: 'https://drive.google.com/file/d/1Dl-s1_Aq4bRQ5QT-fvuLHe1Eo9KXiiPW/view?usp=sharing' }
         ],
       }
     },
@@ -68,7 +68,7 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/en/' },
           { text: 'AI Bot', link: 'https://ai.larryxue.dev' },
-          { text: 'My Resume', link: 'https://resume.larryxue.dev/' }
+          { text: 'My Resume', link: 'https://drive.google.com/file/d/1Dl-s1_Aq4bRQ5QT-fvuLHe1Eo9KXiiPW/view?usp=sharing' }
         ],
       }
     },
